@@ -120,9 +120,9 @@ def build_vector_store(chunks):
     print(f"Stored {len(texts)} chunks in Chroma.")
 
 
-if __name__ == "__main__":
-    docs = load_pdfs()
-    chunks = chunk_text(docs)
-    print(f"Loaded {len(docs)} pages.")
-    print(f"Created {len(chunks)} chunks.")
-    build_vector_store(chunks)
+# if __name__ == "__main__":
+#     docs = load_pdfs()
+#     chunks = chunk_text(docs)
+#     print(f"Loaded {len(docs)} pages.")
+#     print(f"Created {len(chunks)} chunks.")
+#     build_vector_store(chunks)
