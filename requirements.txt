@@ -5,3 +5,5 @@ chromadb
 numpy
 torch
 python-dotenv
+groq
+python-dotenv
